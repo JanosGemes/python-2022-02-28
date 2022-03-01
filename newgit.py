@@ -1,9 +1,6 @@
-def number_15( number:int):
-    if number  > 15:
-        return True
-    else:  
-        return False
+def number_15( number:int) -> bool:
+    return number  > 15
+     
 
-    
 print(number_15(15))
 print(number_15(20))
