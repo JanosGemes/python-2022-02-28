@@ -15,7 +15,7 @@ def driver():
 
 def test_welcome_page_header(driver):
     #then
-    header = driver.find_element(By.TAG_NAME, "h1").text
+    header = driver.find_element(By.TAG_NAME, "li").text
     assert header == "Welcome"
 
 def test_welcome_page_paragraph(driver):
