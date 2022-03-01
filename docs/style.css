@@ -11,3 +11,6 @@ h1 {
 #name-input{
     border: 1px green solid;
 }
+.price {
+    font-weight: bold;
+}

@@ -8,7 +8,7 @@ def list_negativ_number(numbers):
     return  count
 
 #összegzés tétele
-def list_sum_(numbers):
+def list_sum_number(numbers):
     sum = 0
     for number in numbers:
         sum += number 
