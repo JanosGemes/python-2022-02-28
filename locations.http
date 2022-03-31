@@ -1,0 +1,15 @@
+get http://localhost:8080/api/locations
+
+### Delete all locations
+DELETE  http://localhost:8080/api/locations
+
+### Create locations
+POST http://localhost:8080/api/locations
+Content-Type: application/json
+
+{  
+  "name": "Budapest",
+  "coords": "47.497912,19.040235",
+  "interestingAt": "2022-03-31T11:19:08.501Z",
+  "tags": "capital,favourite"
+}

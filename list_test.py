@@ -1,11 +1,9 @@
-from msilib.schema import CheckBox
-from tabnanny import check
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.support.select import select
+from selenium.webdriver.support.select import Select
 
 @pytest.fixture
 def driver():
