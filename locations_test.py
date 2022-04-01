@@ -8,9 +8,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from locations_po import LocationsPage
-from locations_rest_api import create_location, delete_all_locations
-from read_locations import read_locations
 
+from read_locations import read_locations
+from locations_db import create_location, delete_all_locations
 
 
 @pytest.fixture 
